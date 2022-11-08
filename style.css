@@ -3,34 +3,25 @@
     padding: 0;
 }
 /* navbar */
-
-
-
-.navbar-nav{
-   /* position: relative; */
+.navbar {
+    
 }
-
 
 /* Jumbotron */
 #web-section {
-    /* position: absolute;
-    left: 8%;
-    right: 8%;
-    top: 15%;
-    bottom: 5.89%; */
-    
+    height: 575px;
+    width: 1240px;
     background: #F2F6FF;
     border-radius: 60px;
+    margin-top: 55px;
 }
 
+/* Card Left */
+#card-left{
+    padding: 108px 100px 107px 100px;
+}
 
 .body-text {
-    /* left: 7.27%;
-    right: 65.45%;
-    top: 17.68%;
-    bottom: 54.83%;
-    position: absolute; */
-
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
@@ -40,20 +31,52 @@
 }
 
 .paragraph {
-    /* position: absolute;
-    left: 7.27%;
-    right: 70.62%;
-    top: 49.26%;
-    bottom: 42.23%; */
-
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #234CAD;
+    padding: 25px 0 50px 0;
 }
 
-.col-4 {
-    padding:5%;
+#card-left .btn {
+    border-color:#234CAD;
+    border-radius: 32.5px;
+    width: 200px;
+    height: 65px;
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 22px;
+    color:#234CAD;  
+}
+
+.col-6 {
+    /* padding:5%; */
+}
+
+/* Card Center */
+#card-center {
+    padding: 0;
+}
+
+#card-center-1 {
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    border: 10px solid white;
+    border-radius: 20px;
+    padding: 0.7em;
+    background: white;
+    margin:36px 0 25px 0;
+}
+
+#card-center-2 {
+    height: 100px;
+    width: 350px;
+    border-radius: 20px;
+}
+#card-center-2 .fa-stack {
+    margin: 20px 10px;
+    display: flexbox;
 }

@@ -1,163 +1,126 @@
-/* features 1 2 */
+*{
+    margin: 0;
+    padding: 0;
+}
 
-
-.background {
-    position: absolute;
-    left: 0%;
-    right: 43.35%;
-    top: 0%;
-    bottom: 0%;
-
-    background: #758fca;
+/* Jumbotron */
+#product-feature-1 {
+    height: 575px;
+    width: 700px;
+    background: #29afec;
     border-radius: 60px;
-
-}
-
-.title h1 {
-    
-    position: absolute;
-    left: 66.5%;
-    right: 0%;
-    top: 18.78%;
-    bottom: 52%;
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 56px;
-
-    color: #234CAD;
-
-}
-
-.title .subtitle {
-    position: absolute;
-    left: 66.5%;
-    right: 3.55%;
-    top: 52.35%;
-    bottom: 38.61%;
-
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 26px;
-
-
-    color: #234CAD;
-}
-
-.title button {
-    position: absolute;
-    left: 66.5%;
-    right: 3.55%;
-    top: 62.35%;
-    bottom: 30.61%;
-    border-radius: 30px;
-    width: 150px;
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
+    margin-top: 55px;
     
 }
-.card1 {
-    background-color: burlywood;
-    border-radius: 9px;
-    padding: 50px;
-    margin: 270px;
-    width: 600px;
-   
+
+/* Card Center */
+#card-center {
+    padding: 0;
+}
+/* CARD 1 */
+#card-center-1 {
+    height: 100px;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 110px;
 }
 
-.card2 {
-    background-color: burlywood;
-    border-radius: 9px;
-    padding: 40px;
-    margin-left: 350px;
-    margin-top: -200px;
-    width: 450px;
-    
-   
-}
-
-.card3 {
-    background-color: burlywood;
-    border-radius: 9px;
-    padding: 30px;
-    margin-left: 425px;
-    margin-top: 70px;
-    width: 300px;
-}
-
-.card1 h2 {
-    
-    background: #758fca;
-    padding: 30px;
+.initial-1 {
     width: 100px;
-    border-radius: 300px;
 }
 
-.card2 h2 {
-    
-    background: #758fca;
-    padding: 25px;
-    width: 80px;
-    border-radius: 300px;
-    font-size: 25px;
-}
-
-.card3 h2 {
-    background: #758fca;
-    padding: 20px;
-    width: 60px;
-    border-radius: 300px;
-    font-size: 15px;
-}
-
-.name1{
-    background: #758fca;
-    margin-left: 130px;
-    margin-top: -100px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.content1 {
-    background: #758fca;
-    margin-left: 130px;
-    margin-top: -10px;
-    font-size: 20px;
-    
-}
-
-.name2 {
-    background: #758fca;
-    margin-left: 100px;
+.name-1 {
+    margin-left: 110px;
     margin-top: -80px;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 20px;
 }
 
-.content2 {
-    background: #758fca;
-    margin-left: 100px;
-    margin-top: -10px;
+.msg-1 {
+    margin-left: 110px;
     font-size: 15px;
 }
-
-.name3 {
-    background: #758fca;
-    margin-left: 77px;
-    margin-top: -60px;
-    font-size: 10px;
-    font-weight: bold;
+/* card 2 */
+#card-center-2 {
+    height: 90px;
+    width: 300px;
+    border-radius: 18px;
+    margin-top: 50px;
+    margin-left: 25px;
 }
 
-.content3 {
-    background: #758fca;
-    margin-left: 77px;
-    margin-top: -10px;
+.initial-2 {
+    width: 75px;
+}
+
+.name-2 {
+    margin-left: 85px;
+    margin-top: -55px;
+    font-size: 15px;
+}
+
+.msg-2 {
+    margin-left: 85px;
     font-size: 10px;
+}
+
+/* card 3 */
+#card-center-3 {
+    height: 70px;
+    width: 250px;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.initial-3 {
+    width: 55px;
+}
+
+.name-3 {
+    margin-left: 70px;
+    margin-top: -40px;
+    font-size: 10px;
+}
+
+.msg-3 {
+    margin-left: 70px;
+    font-size:9px;
+}
+
+/* right content */
+
+.title-1 {
+    color: #234CAD;
+    margin-left: 750px;
+    width: 350px;
+    margin-top: -390px;
+
+}
+
+.right-1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.right-2 {
+    margin-bottom: 70px;
+    font-size: 19px;
+}
+
+.button-right-product {
+    background-color: white;
+    color: #234CAD;
+    padding: 10px;
+    border-radius: 30px;
+    width: 200px;
+    border-color: #234CAD;;
+}
+
+.button-right-product:hover {
+    background-color: #234CAD;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    width: 200px;
+    border-color: #234CAD;
+    transition: 0.5s;
 }

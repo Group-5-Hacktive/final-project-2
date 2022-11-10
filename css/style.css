@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* produc feature 1 */
 /* Jumbotron */
 #product-feature-1 {
     height: 575px;
@@ -90,9 +90,10 @@
 
 .title-1 {
     color: #234CAD;
-    margin-left: 750px;
+    margin-left: 800px;
     width: 350px;
-    margin-top: -390px;
+    margin-top: -490px;
+
 
 }
 
@@ -123,4 +124,21 @@
     width: 200px;
     border-color: #234CAD;
     transition: 0.5s;
+}
+
+/* product feature 2 */
+.title-2 {
+    text-align: center;
+    margin-top: 400px;
+    color: #234CAD;
+}
+
+/* jumbotron 2 */
+#product-feature-2 {
+    
+    height: 575px;
+    width: auto;
+    background: #29afec;
+    border-radius: 60px;
+    margin-top: 55px;
 }

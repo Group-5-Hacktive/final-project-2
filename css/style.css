@@ -27,17 +27,27 @@
 
 .initial-1 {
     width: 100px;
+    
 }
 
 .name-1 {
     margin-left: 110px;
     margin-top: -80px;
     font-size: 20px;
+    color: #234CAD;
 }
 
 .msg-1 {
     margin-left: 110px;
     font-size: 15px;
+    color: #234CAD;
+}
+
+.time-1 {
+    font-size: 10px;
+    margin-top: -70px;
+    margin-left: 290px;
+    color: #234CAD;
 }
 /* card 2 */
 #card-center-2 {
@@ -56,11 +66,20 @@
     margin-left: 85px;
     margin-top: -55px;
     font-size: 15px;
+    color: #234CAD;
 }
 
 .msg-2 {
     margin-left: 85px;
     font-size: 10px;
+    color: #234CAD;
+}
+
+.time-2 {
+    font-size: 10px;
+    margin-top: -60px;
+    margin-left: 230px;
+    color: #234CAD;
 }
 
 /* card 3 */
@@ -79,11 +98,20 @@
     margin-left: 70px;
     margin-top: -40px;
     font-size: 10px;
+    color: #234CAD;
 }
 
 .msg-3 {
     margin-left: 70px;
     font-size:9px;
+    color: #234CAD;
+}
+
+.time-3 {
+    font-size: 10px;
+    margin-top: -56px;
+    margin-left: 185px;
+    color: #234CAD;
 }
 
 /* right content */
@@ -129,7 +157,7 @@
 /* product feature 2 */
 .title-2 {
     text-align: center;
-    margin-top: 400px;
+    margin-top: 300px;
     color: #234CAD;
 }
 
@@ -141,4 +169,207 @@
     background: #29afec;
     border-radius: 60px;
     margin-top: 55px;
+}
+
+/* prod 1 */
+#card-product-1 {
+    background: white;
+    width: 70px;
+    height: 70px;
+    margin-top: 50px;
+    border-radius: 15px;
+    
+}
+
+.icon-1 {
+    text-align: center;
+    margin-top: 7px;
+    font-size: 35px;
+    color:#234CAD;
+}
+
+/* prod 2 */
+#card-center-4 {
+    height: 90px;
+    width: 300px;
+    border-radius: 18px;
+    margin-top: -90px;
+    margin-left: 10px;   
+}
+
+.initial-4 {
+    width: 75px;
+}
+
+.name-4 {
+    margin-left: 85px;
+    margin-top: -55px;
+    font-size: 15px;
+    color: #234CAD;
+}
+
+.msg-4 {
+    margin-left: 85px;
+    font-size: 10px;
+    color: #234CAD;
+}
+
+.time-4 {
+    font-size: 10px;
+    margin-top: -60px;
+    margin-left: 230px;
+    color: #234CAD;
+}
+
+#card-sales {
+    height: 140px;
+    width: 240px;
+    border-radius: 18px;
+    margin-top: 35px;
+    margin-left: -10px;
+    
+}
+
+.calendar {
+    width: 75px;
+}
+
+.sales {
+    margin-left: 85px;
+    margin-top: -55px;
+    font-size: 15px;
+    color: #234CAD;
+}
+
+.meeting {
+    margin-left: 85px;
+    font-size: 10px;
+    color: #234CAD;
+}
+
+.sales-list {
+    width: 180px;
+    margin-left: -15px;
+    
+}
+
+#card-upload {
+    height: 90px;
+    width: 300px;
+    border-radius: 18px;
+    margin-top: -140px;
+    margin-left: -30px;
+    
+}
+
+.half-circle {
+    width: 75px;
+}
+
+.upload {
+    margin-left: 85px;
+    margin-top: -55px;
+    font-size: 15px;
+    color: #234CAD;
+}
+
+.transmit {
+    margin-left: 85px;
+    font-size: 10px;
+    color: #234CAD;
+}
+
+#card-center-5 {
+    height: 90px;
+    width: 300px;
+    border-radius: 18px;
+    margin-top: 35px;
+    margin-left: -10px;
+    
+}
+
+.initial-5 {
+    width: 75px;
+}
+
+.name-5 {
+    margin-left: 85px;
+    margin-top: -55px;
+    font-size: 15px;
+    color: #234CAD;
+}
+
+.msg-5 {
+    margin-left: 85px;
+    font-size: 10px;
+    color: #234CAD;
+}
+
+.time-5 {
+    font-size: 10px;
+    margin-top: -60px;
+    margin-left: 230px;
+    color: #234CAD;
+}
+
+#card-upload-2 {
+    height: 100px;
+    width: 75px;
+    border-radius: 18px;
+    margin-top: 35px;
+    margin-left: -10px;
+    
+}
+
+.upload-2 {
+    width: 75px;
+}
+
+.transmit-2 {
+    text-align: center;
+    font-size: 10px;
+    color: #234CAD;
+}
+
+#card-saved-msg {
+    height: 90px;
+    width: 300px;
+    border-radius: 18px;
+    margin-top: -300px;
+    margin-left: 65px;
+    
+}
+
+.bookmark {
+    width: 75px;
+}
+
+.saved {
+    margin-left: 85px;
+    margin-top: -55px;
+    font-size: 15px;
+    color: #234CAD;
+}
+
+.content-msg {
+    margin-left: 85px;
+    font-size: 10px;
+    color: #234CAD;
+}
+
+#card-product-8 {
+    background: white;
+    width: 70px;
+    height: 70px;
+    margin-top: -175px;
+    margin-left: -20px;
+    border-radius: 15px;
+    
+}
+
+.icon-msg {
+    text-align: center;
+    margin-top: 7px;
+    font-size: 35px;
+    color:#234CAD;
 }

@@ -76,6 +76,7 @@
     width: 350px;
     border-radius: 20px;
     margin-bottom: 25px;
+    border-color: white;
 }
 #card-center-2 .fa-stack {
     margin: 25px 20px;
@@ -86,6 +87,7 @@
     position: relative;
     bottom: 25px;
     left: 93px;
+    margin-left: 20px;
 }
 
 .paragraph-2 h4 {
@@ -108,6 +110,8 @@
     height: 160px;
     width: 276px;
     border-radius: 25px;
+    margin-bottom: 25px;
+    border-color:white ;
 }
 
 #card-center-3 .fa-stack{
@@ -125,9 +129,8 @@
 
 .paragraph-3 {
     position: absolute;
-    bottom: 69px;
+    bottom: 87px;
     left: 100px;
-    /* height: 21px; */
 }
 
 .paragraph-3 h4 {
@@ -148,6 +151,7 @@
     font-size: 12px;
     line-height: 21px;
     color: #234CAD;
+    display: inline;
 }
 
 .text-block {
@@ -156,80 +160,163 @@
     height: 40px;
     background-color: #F2F6FF;
     color: white;
-    padding:12.5px;
+    padding:9px;
     border-radius: 100%;
     bottom: 20px;
     margin: 20px -10px 20px 20px;
-  }
+    border-style: solid;
+}
 
-  .person .text-block p {
+.person .text-block p {
     height: 14px;
     font-family: nunito;
     font-weight: 700;
     font-size: 10px;
     line-height: 14px;
     color: #234CAD;
-  }
+}
 
-  .text-block-1 {
+.text-block-1 {
     position: absolute;
     width: 40px;
     height: 40px;
     background-color: #F2F6FF;
     color: white;
-    padding:12.5px;
+    padding:9px;
     border-radius: 100%;
     bottom: 20px;
     margin-left: 50px;
-  }
+    border-style: solid;
+}
 
-  .person-1 .text-block-1 p {
+.person-1 .text-block-1 p {
     height: 14px;
     font-family: nunito;
     font-weight: 700;
     font-size: 10px;
     line-height: 14px;
     color: #234CAD;
-  }
+}
 
-  .text-block-2 {
+.text-block-2 {
     position: absolute;
     width: 40px;
     height: 40px;
     background-color: #F2F6FF;
     color: white;
-    padding:12.5px;
+    padding:9px;
     border-radius: 100%;
     bottom: 20px;
     margin-left: 80px;
-  }
+    border-style: solid;
+}
 
-  .person-2 .text-block-2 p {
+.person-2 .text-block-2 p {
     height: 14px;
     font-family: nunito;
     font-weight: 700;
     font-size: 10px;
     line-height: 14px;
     color: #234CAD;
-  }
+}
 
-  .text-block-3 {
+.text-block-3 {
     position: absolute;
     width: 40px;
     height: 40px;
     background-color: #F2F6FF;
     color: white;
-    padding:12.5px;
+    padding:9px;
     border-radius: 100%;
     bottom: 20px;
     margin-left: 110px;
-  }
+    border-style: solid;
+}
 
-  .person-3 .text-block-3 p {
+.person-3 .text-block-3 p {
     height: 14px;
     font-family: nunito;
     font-weight: 700;
     font-size: 10px;
     line-height: 14px;
     color: #234CAD;
+}
+
+#card-center-4 {
+    height: 100px;
+    width: 350px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    border-color:white ;
+}
+
+#card-center-4 .fa-stack {
+    margin: 25px 20px;
+}
+
+.person-initial {
+    margin: 20px;
+}
+
+.text-block-initial {
+    width: 60px;
+    height: 60px;
+    background-color: #F2F6FF;
+    color: white;
+    padding:12.5px;
+    border-radius: 100%;
   }
+
+.person-initial .text-block-initial p {
+    height: 24px;
+    font-family: nunito;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #234CAD;
+    margin: 6.5px 6.5px 6.5px 7.5px;
+}
+
+.person-initial .text-block-initial .notif {
+    position: absolute;
+    width: 4px;
+    top: 24px;
+    left: 70px;
+    
+}
+
+.paragraph-4 {
+    position: absolute;
+    top: 28px;
+    left: 100px;
+}
+
+.paragraph-4 h4 {
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #234CAD;
+}
+
+.paragraph-4 p {
+    font-family: nunito;
+    font-weight: 400;
+    size: 12px;
+    line-height: 21px;
+    color: #234CAD;
+}
+
+.date-card-4 {
+    position: absolute;
+    left: 285px;
+    right: 20px;
+    top: 28px;
+    bottom: 59px;
+    font-family: nunito;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #234CAD;
+    opacity: 0.75;
+}

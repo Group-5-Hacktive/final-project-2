@@ -19,6 +19,7 @@
 
   document.getElementById("clock").innerText = time + getAmPm;
   document.getElementById("clock-2").innerText = time + getAmPm;
+  document.getElementById("clock-3").innerText = time + getAmPm;
   // jalankan function currentTime setiap 1000ms /1 detik
   let t = setTimeout(function () {
     currentTime();

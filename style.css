@@ -14,11 +14,11 @@
     background: #F2F6FF;
     border-radius: 60px;
     margin-top: 55px;
-}
-
-/* Card Left */
-#card-left{
-    padding: 108px 100px 107px 100px;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+    right: 100px;
+    bottom: 4320px;
 }
 
 .body-text {
@@ -28,6 +28,12 @@
     font-size: 48px;
     line-height: 56px;
     color: #234CAD;
+    position: absolute;
+    width: 375px;
+    left: 100px;
+    top: 108px;
+    bottom: 299px;
+    right: 765px;
 }
 
 .paragraph {
@@ -37,7 +43,12 @@
     font-size: 16px;
     line-height: 26px;
     color: #234CAD;
-    padding: 25px 0 50px 0;
+    position: absolute;
+    width: 304px;
+    left: 100px;
+    top: 301px;
+    right: 836px;
+    bottom: 222px;
 }
 
 #card-left .btn {
@@ -49,15 +60,18 @@
     font-weight: 700;
     font-size: 22px;
     color:#234CAD;  
-}
-
-.col-6 {
-    /* padding:5%; */
+    position: absolute;
+    left: 100px;
+    top: 403px;
+    right: 940px;
+    bottom: 480px;
 }
 
 /* Card Center */
+
 #card-center {
     padding: 0;
+    margin: 0;
 }
 
 #card-center-1 {
@@ -68,20 +82,23 @@
     border-radius: 20px;
     padding: 0.7em;
     background: white;
-    margin:36px 0 25px 0;
     position: absolute;
-    left: 575px;
+    left: 480px;
+    top: 30px;
+    right: 595px;
+    bottom: 480px;
 }
 
 #card-center-2 {
     height: 100px;
     width: 350px;
     border-radius: 20px;
-    margin-bottom: 25px;
     border-color: white;
     position: absolute;
-    left: 575px;
-    top: 256px;
+    left: 480px;
+    top: 125px;
+    right: 310px;
+    bottom: 350px;
 }
 #card-center-2 .fa-stack {
     margin: 25px 20px;
@@ -118,8 +135,10 @@
     margin-bottom: 25px;
     border-color:white ;
     position: absolute;
-    left: 575px;
-    top: 381px;
+    left: 480px;
+    top: 261px;
+    right: 384px ;
+    bottom: 129px;
 }
 
 #card-center-3 .fa-stack{
@@ -258,8 +277,10 @@
     margin-bottom: 25px;
     border-color:white ;
     position: absolute;
-    left: 575px;
-    top: 566px;
+    left: 480px;
+    top: 460px;
+    right: 310px;
+    bottom: 29px;
 }
 
 #card-center-4 .fa-stack {
@@ -336,10 +357,12 @@
 /* Card Right */
 #card-right {
     position: absolute;
-    left: 975px;
+    left: 885px;
+    top: 65px;
+    right: 135px;
+    bottom: 350px;
     width: 130px;
     height: 160px;
-    top: 200px;
     border-radius: 25px;
     border-color: white;
 }
@@ -368,8 +391,10 @@
     margin-bottom: 25px;
     border-color:white ;
     position: absolute;
-    left: 876px;
-    top: 382px;
+    left: 776px;
+    top: 236px;
+    right: 14px;
+    bottom: 214;
 }
 
 #card-right-2 .fa-stack {
@@ -442,4 +467,86 @@
     line-height: 13px;
     color: #234CAD;
     opacity: 0.75;
+}
+
+#card-right-3 {
+    height: 100px;
+    width: 350px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    border-color:white ;
+    position: absolute;
+    left: 776px;
+    top: 350px;
+    right: 14px;
+    bottom: 100px;
+}
+
+#card-right-3 .message-card-right-3 .text-block-message {
+    width: 60px;
+    height: 60px;
+    background-color: #F2F6FF;
+    color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    bottom: 20px;
+    right: 270px;
+}
+
+#card-right-3 .message-card-right-3 .text-block-message i {
+    position: absolute;
+    color: #234CAD;
+    left: 22px;
+    top: 30px;
+    bottom: 30px;
+    right: 290px;
+}
+
+.paragraph-right-3 {
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+
+.paragraph-right-3 h4 {
+    font-family: Nunito;
+    width: 114px;
+    height: 21px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #234CAD;
+}
+
+.paragraph-right-3 p {
+    font-family: nunito;
+    font-weight: 400;
+    width: 224px;
+    size: 12px;
+    line-height: 21px;
+    color: #234CAD;
+}
+
+#card-right-4 {
+    width: 75px;
+    height: 75px;
+    border: 10px solid white;
+    border-radius: 20px;
+    background: white;
+    position: absolute;
+    left: 885px;
+    top: 475px;
+    right: 180px;
+    bottom: 25px;
+}
+
+#card-right-4 span i {
+    position: absolute;
+    left: 12px;
+    top: 28px;
+    right: 12px;
+    bottom: 23.79px;
+    color: #234CAD;
 }

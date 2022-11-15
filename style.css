@@ -3,9 +3,95 @@
     padding: 0;
 }
 /* navbar */
-.navbar {
-    
-}
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    padding-top: 80px;
+    transition: 0.5s; 
+  }
+  
+  .sidenav a {
+    margin:15px 15px 15px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #234CAD;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: black;
+  }
+ 
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: red;
+  }
+
+  .sidenav img {
+    position: absolute;
+    top: 20px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+
+  .navbar #main #login {
+    width: 135px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: #234CAD;
+  }
+
+  .navbar #main #login .btn-text-login {
+    width: 47px;
+    height: 29px;
+    font-family: nunito;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    margin: 2px 0 0 30px;
+    color: #234CAD;
+  }
+  .navbar #main #login:hover {
+    background-color: #F2F6FF;
+  }
+
+  .navbar #main #sign-up {
+    width: 135px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: white;
+    background-color: #F2F6FF;
+  }
+  .navbar #main #sign-up .btn-text-sign {
+    width: 64px;
+    height: 29px;
+    font-family: nunito;
+    font-weight: 700;
+    font-size: 18px;
+    color: #234CAD;
+    line-height: 29px;
+    margin: 3px 0 0 24px;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
 
 /* Jumbotron */
 #web-section {

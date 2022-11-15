@@ -21,7 +21,7 @@ function closeNav() {
   // jika menit kurang dari 10, maka tambahkan 0 di depan menit ex: 05
   mm = mm < 10 ? "0" + mm : mm;
 
-  let getAmPm = hh >= 13 ? " AM" : " PM";
+  let getAmPm = hh >= 12 ? " PM" : " AM";
   if (hh >= 13) {
     hh -= 12;
   }

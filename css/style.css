@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Nunito', sans-serif;
+    
 }
 /* produc feature 1 */
 /* Jumbotron */
@@ -10,6 +12,7 @@
     background: #F2F6FF;
     border-radius: 60px;
     margin-top: 55px;
+    border: none;
     
 }
 
@@ -23,23 +26,50 @@
     width: 350px;
     border-radius: 20px;
     margin-top: 110px;
+    border: none;
 }
 
 .initial-1 {
-    width: 100px;
-    
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: #F2F6FF;
+    color: #234CAD;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.badge-1 {
+    width: 16px;
+    height: 16px;
+    background-color: #234cad;
+    display: grid;
+    font-size: 6px;
+    place-items: center;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid white;
 }
 
 .name-1 {
     margin-left: 110px;
-    margin-top: -80px;
+    margin-top: -60px;
     font-size: 20px;
+    font-weight: 700;
     color: #234CAD;
 }
 
 .msg-1 {
     margin-left: 110px;
     font-size: 15px;
+    font-weight: 400;
     color: #234CAD;
 }
 
@@ -56,23 +86,51 @@
     border-radius: 18px;
     margin-top: 50px;
     margin-left: 25px;
+    border: none;
 }
 
 .initial-2 {
-    width: 75px;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #F2F6FF;
+    color: #234CAD;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.badge-2 {
+    width: 14px;
+    height: 14px;
+    background-color: #234cad;
+    display: grid;
+    font-size: 6px;
+    place-items: center;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid white;
 }
 
 .name-2 {
-    margin-left: 85px;
+    margin-left: 100px;
     margin-top: -55px;
     font-size: 15px;
     color: #234CAD;
+    font-weight: 700;
 }
 
 .msg-2 {
-    margin-left: 85px;
+    margin-left: 100px;
     font-size: 10px;
     color: #234CAD;
+    font-weight: 400;
 }
 
 .time-2 {
@@ -89,22 +147,50 @@
     border-radius: 16px;
     margin-top: 50px;
     margin-left: 50px;
+    border: none;
 }
 .initial-3 {
-    width: 55px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #F2F6FF;
+    color: #234CAD;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.badge-3 {
+    width: 10px;
+    height: 10px;
+    background-color: #234cad;
+    display: grid;
+    font-size: 6px;
+    place-items: center;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid white;
 }
 
 .name-3 {
-    margin-left: 70px;
+    margin-left: 80px;
     margin-top: -40px;
     font-size: 10px;
     color: #234CAD;
+    font-weight: 800;
 }
 
 .msg-3 {
-    margin-left: 70px;
+    margin-left: 80px;
     font-size:9px;
     color: #234CAD;
+    font-weight: 400;
 }
 
 .time-3 {
@@ -121,6 +207,7 @@
     margin-left: 800px;
     width: 350px;
     margin-top: -490px;
+    
 
 
 }
@@ -128,11 +215,13 @@
 .right-1 {
     margin-bottom: 50px;
     font-size: 50px;
+    font-weight: 700;
 }
 
 .right-2 {
     margin-bottom: 70px;
     font-size: 19px;
+    font-weight: 400;
 }
 
 .button-right-product {
@@ -141,7 +230,8 @@
     padding: 10px;
     border-radius: 30px;
     width: 200px;
-    border-color: #234CAD;;
+    border-color: #234CAD;
+    font-weight: 700;
 }
 
 .button-right-product:hover {
@@ -161,6 +251,16 @@
     color: #234CAD;
 }
 
+.subtitle-1 {
+    font-weight: 700;
+    font: 60px;
+}
+
+.subtitle-2  {
+    font-weight: 400;
+    font-size: 19px;
+}
+
 /* jumbotron 2 */
 #product-feature-2 {
     
@@ -171,7 +271,7 @@
     margin-top: 55px;
 }
 
-/* prod 1 */
+
 #card-product-1 {
     background: white;
     width: 70px;
@@ -188,36 +288,64 @@
     color:#234CAD;
 }
 
-/* prod 2 */
+
 #card-center-4 {
     height: 90px;
     width: 300px;
     border-radius: 18px;
     margin-top: -90px;
-    margin-left: 10px;   
+    margin-left: -10px; 
+    border: none;  
 }
 
 .initial-4 {
-    width: 75px;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: #F2F6FF;
+    color: #234CAD;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.badge-4 {
+    width: 16px;
+    height: 16px;
+    background-color: #234cad;
+    display: grid;
+    font-size: 6px;
+    place-items: center;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid white;
 }
 
 .name-4 {
-    margin-left: 85px;
+    margin-left: 100px;
     margin-top: -55px;
     font-size: 15px;
     color: #234CAD;
+    font-weight: 700;
 }
 
 .msg-4 {
-    margin-left: 85px;
+    margin-left: 100px;
     font-size: 10px;
     color: #234CAD;
+    font-weight: 400;
 }
 
 .time-4 {
     font-size: 10px;
     margin-top: -60px;
-    margin-left: 230px;
+    margin-left: 240px;
     color: #234CAD;
 }
 
@@ -227,142 +355,225 @@
     border-radius: 18px;
     margin-top: 35px;
     margin-left: -10px;
+    border: none;
     
 }
 
 .calendar {
-    width: 75px;
+    margin-top: 20px;
+    margin-left: 15px;
 }
 
 .sales {
-    margin-left: 85px;
+    margin-left: 95px;
     margin-top: -55px;
     font-size: 15px;
     color: #234CAD;
+    font-weight: 700;
 }
 
 .meeting {
-    margin-left: 85px;
+    margin-left: 95px;
     font-size: 10px;
     color: #234CAD;
+    font-weight: 400;
 }
 
-.sales-list {
-    width: 180px;
-    margin-left: -15px;
-    
+
+.stack-initial {
+    margin-left: 15px;
+}
+
+#stack-1 {
+    width: 40px; 
+    height: 40px; 
+    z-index: 10;
+    color: #234CAD;
+    background: #F2F6FF;
+    font-weight: 700;
+}
+
+#stack-2 {
+    width: 40px; 
+    height: 40px; 
+    margin-left: -6px; 
+    z-index: 9;
+    color: #234CAD;
+    background: #F2F6FF;
+    font-weight: 700;
+}
+
+#stack-3 {
+    width: 40px; 
+    height: 40px; 
+    margin-left: -10px; 
+    z-index: 8;
+    color: #234CAD;
+    background: #F2F6FF;
+    font-weight: 700;
+}
+
+#stack-4 {
+    width: 40px; 
+    height: 40px; 
+    margin-left: -10px; 
+    z-index: 7;
+    color: #234CAD;
+    background: #F2F6FF;
+    font-weight: 700;
 }
 
 #card-upload {
     height: 90px;
     width: 300px;
     border-radius: 18px;
-    margin-top: -140px;
-    margin-left: -30px;
+    margin-top: -420px;
+    margin-left: -90px;
+    border: none;
     
 }
 
 .half-circle {
-    width: 75px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 .upload {
-    margin-left: 85px;
-    margin-top: -55px;
+    margin-left: 90px;
+    margin-top: -45px;
     font-size: 15px;
     color: #234CAD;
+    font-weight: 700;
 }
 
 .transmit {
-    margin-left: 85px;
+    margin-left: 90px;
     font-size: 10px;
     color: #234CAD;
+    font-weight: 400;
 }
 
 #card-center-5 {
     height: 90px;
     width: 300px;
     border-radius: 18px;
-    margin-top: 35px;
-    margin-left: -10px;
+    margin-top: -240px;
+    margin-left: 10px;
+    border-color: white;
     
 }
 
 .initial-5 {
-    width: 75px;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: #F2F6FF;
+    color: #234CAD;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.badge-5 {
+    width: 16px;
+    height: 16px;
+    background-color: #234cad;
+    display: grid;
+    font-size: 6px;
+    place-items: center;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid white;
 }
 
 .name-5 {
-    margin-left: 85px;
+    margin-left: 100px;
     margin-top: -55px;
     font-size: 15px;
     color: #234CAD;
+    font-weight: 700;
 }
 
 .msg-5 {
-    margin-left: 85px;
+    margin-left: 100px;
     font-size: 10px;
     color: #234CAD;
+    font-weight: 400;
 }
 
 .time-5 {
     font-size: 10px;
     margin-top: -60px;
-    margin-left: 230px;
+    margin-left: 240px;
     color: #234CAD;
 }
 
 #card-upload-2 {
-    height: 100px;
-    width: 75px;
+    height: 200px;
+    width: 100px;
     border-radius: 18px;
-    margin-top: 35px;
-    margin-left: -10px;
+    margin-top: -110px;
+    margin-left: 10px;
+    border: none;
     
 }
 
 .upload-2 {
-    width: 75px;
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
 .transmit-2 {
     text-align: center;
     font-size: 10px;
     color: #234CAD;
+    font-weight: 400;
+    margin-top: 10px;
+
 }
 
 #card-saved-msg {
     height: 90px;
     width: 300px;
     border-radius: 18px;
-    margin-top: -300px;
-    margin-left: 65px;
+    margin-top: -430px;
+    margin-left: 190px;
+    border: none;
     
 }
 
 .bookmark {
-    width: 75px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 .saved {
-    margin-left: 85px;
+    margin-left: 95px;
     margin-top: -55px;
     font-size: 15px;
     color: #234CAD;
+    font-weight: 700;
 }
 
 .content-msg {
-    margin-left: 85px;
+    margin-left: 95px;
     font-size: 10px;
     color: #234CAD;
+    font-weight: 400;
 }
 
 #card-product-8 {
     background: white;
     width: 70px;
     height: 70px;
-    margin-top: -175px;
-    margin-left: -20px;
+    margin-top: -310px;
+    margin-left: 50px;
     border-radius: 15px;
     
 }

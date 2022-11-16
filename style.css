@@ -2,6 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    position: absolute;
+    width: 1440px;
+    height: 5095px;
+    left: 0px;
+    top: 0px;
+    color: #ffffff;
+}
+
 /* navbar */
 .sidenav {
     height: 100%; 
@@ -23,6 +33,8 @@
     color: #234CAD;
     display: block;
     transition: 0.3s;
+    font-family: 'Nunito';
+    font-weight: 700;
   }
   
   .sidenav a:hover {
@@ -42,10 +54,74 @@
     position: absolute;
     top: 20px;
   }
+
+  .navbar .navbar-toggler{
+    position: absolute;
+    color: #F2F6FF;
+    top: 70px;
+    left: 100px;
+    right: 1290px;
+  }
   
+  .navbar .nav-item #home {
+    width: 49px;
+    height: 29px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #234CAD;
+    position: absolute;
+    left: 517px;
+    top: 61px;
+    right: 874px;
+    bottom: 5005px;
+  }
+
+  .navbar .nav-item #product {
+    width: 65px;
+    height: 29px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #234CAD;
+    position: absolute;
+    left: 616px;
+    top: 61px;
+    right: 759px;
+    bottom: 5005px;
+  }
+  
+  .navbar .nav-item #about {
+    width: 51px;
+    height: 29px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #234CAD;
+    position: absolute;
+    left: 731px;
+    top: 61px;
+    right: 658px;
+    bottom: 5005px;
+  }
+
+  .navbar .nav-item #contact {
+    width: 64px;
+    height: 29px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #234CAD;
+    position: absolute;
+    left: 831px;
+    top: 61px;
+    right: 545px;
+    bottom: 5005px;
+  }
+
   #main {
     transition: margin-left .5s;
-    padding: 20px;
   }
 
   .navbar #main #login {
@@ -53,17 +129,27 @@
     height: 50px;
     border-radius: 25px;
     border-color: #234CAD;
+    position: absolute;
+    left: 1045px;
+    top: 50px;
+    right: 260px;
+    bottom: 4995px;
   }
 
   .navbar #main #login .btn-text-login {
     width: 47px;
     height: 29px;
-    font-family: nunito;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 29px;
-    margin: 2px 0 0 30px;
     color: #234CAD;
+    position: absolute;
+    top: 11px;
+    right: 44px;
+    bottom: 10px;
+    left: 44px;
+    text-align: center;
   }
   .navbar #main #login:hover {
     background-color: #F2F6FF;
@@ -75,16 +161,27 @@
     border-radius: 25px;
     border-color: white;
     background-color: #F2F6FF;
+    position: absolute;
+    left: 1205px;
+    top: 50px;
+    right: 100px;
+    bottom: 4995px;
   }
   .navbar #main #sign-up .btn-text-sign {
     width: 64px;
     height: 29px;
-    font-family: nunito;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
+    font-style: normal;
     color: #234CAD;
     line-height: 29px;
-    margin: 3px 0 0 24px;
+    position: absolute;
+    top: 11px;
+    right: 35px;
+    bottom: 10px;
+    left: 36px;
+    text-align: center;
   }
 
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -99,16 +196,16 @@
     width: 1240px;
     background: #F2F6FF;
     border-radius: 60px;
-    margin-top: 55px;
     position: absolute;
     left: 100px;
-    top: 40px;
+    top: 200px;
     right: 100px;
     bottom: 4320px;
+    overflow: hidden;
 }
 
 .body-text {
-    font-family: 'Nunito';
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -116,6 +213,7 @@
     color: #234CAD;
     position: absolute;
     width: 375px;
+    height: 168px;
     left: 100px;
     top: 108px;
     bottom: 299px;
@@ -123,7 +221,7 @@
 }
 
 .paragraph {
-    font-family: 'Nunito';
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -131,6 +229,7 @@
     color: #234CAD;
     position: absolute;
     width: 304px;
+    height: 52px;
     left: 100px;
     top: 301px;
     right: 836px;
@@ -142,7 +241,7 @@
     border-radius: 32.5px;
     width: 200px;
     height: 65px;
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 22px;
     color:#234CAD;  
@@ -150,7 +249,7 @@
     left: 100px;
     top: 403px;
     right: 940px;
-    bottom: 480px;
+    bottom: 107px;
 }
 
 /* Card Center */
@@ -169,10 +268,10 @@
     padding: 0.7em;
     background: white;
     position: absolute;
-    left: 480px;
-    top: 30px;
-    right: 595px;
-    bottom: 480px;
+    left: 575px;
+    top: 36px;
+    right: 590px;
+    bottom: 464px;
 }
 
 #card-center-2 {
@@ -181,37 +280,45 @@
     border-radius: 20px;
     border-color: white;
     position: absolute;
-    left: 480px;
-    top: 125px;
-    right: 310px;
-    bottom: 350px;
+    left: 575px;
+    top: 136px;
+    right: 315px;
+    bottom: 339px;
 }
 #card-center-2 .fa-stack {
-    margin: 25px 20px;
-
-}
-
-.paragraph-2 {
-    position: relative;
-    bottom: 25px;
-    left: 93px;
-    margin-left: 20px;
+    position: absolute;
+    left: 20px;
+    top: 31px;
+    bottom: 23px;
 }
 
 .paragraph-2 h4 {
-    font-family: Nunito;
+    width: 160px;
+    height: 21px;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
     color: #234CAD;
+    position: absolute;
+    left: 93px;
+    top: 32px;
+    right: 100px;
+    bottom: 47px;
 }
 
 .paragraph-2 p {
-    font-family: nunito;
+    width: 90px;
+    font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    size: 12px;
+    font-size: 12px;
     line-height: 21px;
     color: #234CAD;
+    position: absolute;
+    left: 93px;
+    top: 56px;
+    right: 167px;
+    bottom: 23px;
 }
 
 #card-center-3 {
@@ -221,10 +328,10 @@
     margin-bottom: 25px;
     border-color:white ;
     position: absolute;
-    left: 480px;
+    left: 575px;
     top: 261px;
-    right: 384px ;
-    bottom: 129px;
+    right: 389px ;
+    bottom: 154px;
 }
 
 #card-center-3 .fa-stack{
@@ -244,13 +351,14 @@
     position: absolute;
     bottom: 87px;
     left: 100px;
+    top: 28px;
     margin-left: 10px;
 }
 
 .paragraph-3 h4 {
-    width: 104px;
+    width: 110px;
     height: 21px;
-    font-family: nunito;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
@@ -260,7 +368,7 @@
 .paragraph-3 p {
     width: 118px;
     height: 21px;
-    font-family: nunito;
+    font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 21px;
@@ -283,7 +391,7 @@
 
 .person .text-block p {
     height: 14px;
-    font-family: nunito;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 10px;
     line-height: 14px;
@@ -305,7 +413,7 @@
 
 .person-1 .text-block-1 p {
     height: 14px;
-    font-family: nunito;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 10px;
     line-height: 14px;
@@ -327,7 +435,7 @@
 
 .person-2 .text-block-2 p {
     height: 14px;
-    font-family: nunito;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 10px;
     line-height: 14px;
@@ -349,7 +457,7 @@
 
 .person-3 .text-block-3 p {
     height: 14px;
-    font-family: nunito;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 10px;
     line-height: 14px;
@@ -363,9 +471,9 @@
     margin-bottom: 25px;
     border-color:white ;
     position: absolute;
-    left: 480px;
-    top: 460px;
-    right: 310px;
+    left: 575px;
+    top: 446px;
+    right: 315px;
     bottom: 29px;
 }
 
@@ -388,7 +496,7 @@
 
 #card-center-4 .person-initial .text-block-initial p {
     height: 24px;
-    font-family: nunito;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
@@ -404,26 +512,29 @@
     
 }
 
-.paragraph-4 {
-    position: absolute;
-    top: 28px;
-    left: 100px;
-}
-
 .paragraph-4 h4 {
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
     color: #234CAD;
+    position: absolute;
+    left: 100px;
+    top: 28px;
+    bottom: 51px;
 }
 
 .paragraph-4 p {
-    font-family: nunito;
+    font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    size: 12px;
+    font-size: 12px;
     line-height: 21px;
+    width: 184px;
     color: #234CAD;
+    position: absolute;
+    left: 100px;
+    top: 52px;
+    bottom: 27px;
 }
 
 .date-card-4 {
@@ -432,7 +543,7 @@
     right: 20px;
     top: 28px;
     bottom: 59px;
-    font-family: nunito;
+    font-family: 'Nunito', sans-serif;
     font-size: 10px;
     font-weight: 400;
     line-height: 13px;
@@ -443,10 +554,10 @@
 /* Card Right */
 #card-right {
     position: absolute;
-    left: 885px;
-    top: 65px;
+    left: 975px;
+    top: 76px;
     right: 135px;
-    bottom: 350px;
+    bottom: 339px;
     width: 130px;
     height: 160px;
     border-radius: 25px;
@@ -463,7 +574,7 @@
     left: 34.29px;
     right: 33.71px;
     width: 63px;
-    font-family: nunito;
+    font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 10px;
     line-height: 13px;
@@ -477,10 +588,10 @@
     margin-bottom: 25px;
     border-color:white ;
     position: absolute;
-    left: 776px;
-    top: 236px;
+    left: 876px;
+    top: 261px;
     right: 14px;
-    bottom: 214;
+    bottom: 214px;
 }
 
 #card-right-2 .fa-stack {
@@ -502,7 +613,7 @@
 
 #card-right-2 .person-initial .text-block-initial p {
     height: 24px;
-    font-family: nunito;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
@@ -519,26 +630,33 @@
     
 }
 
-.paragraph-right-2 {
-    position: absolute;
-    top: 28px;
-    left: 100px;
-}
 
 .paragraph-right-2 h4 {
-    font-family: Nunito;
+    width: 96px;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
     color: #234CAD;
+    position: absolute;
+    left: 100px;
+    top: 28px;
+    right: 154px;
+    bottom: 51px;
 }
 
 .paragraph-right-2 p {
-    font-family: nunito;
+    width: 156px;
+    font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    size: 12px;
+    font-size: 12px;
     line-height: 21px;
     color: #234CAD;
+    position: absolute;
+    left: 100px;
+    top: 52px;
+    right: 94px;
+    bottom: 27px;
 }
 
 .date-card-right-2 {
@@ -547,7 +665,7 @@
     right: 20px;
     top: 28px;
     bottom: 59px;
-    font-family: nunito;
+    font-family: 'Nunito', sans-serif;
     font-size: 10px;
     font-weight: 400;
     line-height: 13px;
@@ -562,10 +680,10 @@
     margin-bottom: 25px;
     border-color:white ;
     position: absolute;
-    left: 776px;
-    top: 350px;
-    right: 14px;
-    bottom: 100px;
+    left: 975px;
+    top: 386px;
+    right: 85px;
+    bottom: 89px;
 }
 
 #card-right-3 .message-card-right-3 .text-block-message {
@@ -590,29 +708,33 @@
     right: 290px;
 }
 
-.paragraph-right-3 {
-    position: absolute;
-    top: 15px;
-    left: 100px;
-}
-
 .paragraph-right-3 h4 {
-    font-family: Nunito;
-    width: 114px;
-    height: 21px;
+    font-family: 'Nunito', sans-serif;
+    width: 120px;
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
     color: #234CAD;
+    position: absolute;
+    left: 100px;
+    top: 28px;
+    right: 136px;
+    bottom: 51px;
 }
 
 .paragraph-right-3 p {
-    font-family: nunito;
-    font-weight: 400;
     width: 224px;
-    size: 12px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    width: 230px;
+    font-size: 12px;
     line-height: 21px;
     color: #234CAD;
+    position: absolute;
+    left: 100px;
+    top: 52px;
+    right: 26px;
+    bottom: 27px;
 }
 
 #card-right-4 {
@@ -622,10 +744,10 @@
     border-radius: 20px;
     background: white;
     position: absolute;
-    left: 885px;
-    top: 475px;
-    right: 180px;
-    bottom: 25px;
+    left: 950px;
+    top: 511px;
+    right: 215px;
+    bottom: 11px;
 }
 
 #card-right-4 span i {
@@ -635,4 +757,110 @@
     right: 12px;
     bottom: 23.79px;
     color: #234CAD;
+}
+
+/* Cloud Section */
+
+.cloud-section .fa-stack {
+    width: 100px;
+    height: 100px;
+    background-color: #F2F6FF;
+    position: absolute;
+    border-radius: 100%;
+    left: 100px;
+    top: 925px;
+    right: 1240px;
+    bottom: 4070px;
+}
+
+#cloud-section-left .cloud-section i {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    right: 28px;
+    bottom: 34px;
+    color: #234CAD;
+}
+
+#cloud-section-left .paragraph-cloud-section h4 {
+    width: 178px;
+    height: 49px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 49px;
+    color: #234CAD;
+    position: absolute;
+    left: 230px;
+    top: 933px;
+    right: 1040px;
+    bottom: 4113px;
+}
+
+#cloud-section-left .paragraph-cloud-section p {
+    width: 406px;
+    height: 36px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #234CAD;
+    position: absolute;
+    left: 230px;
+    top: 982px;
+    right: 808px;
+    bottom: 4077px;
+}
+
+/* Secured Section */
+
+.secured-section .fa-stack {
+    width: 100px;
+    height: 100px;
+    background-color: #F2F6FF;
+    position: absolute;
+    border-radius: 100%;
+    left: 787px;
+    top: 925px;
+    right: 553px;
+    bottom: 4070px;
+}
+
+#secured-section-left .secured-section i {
+    position: absolute;
+    left: 34px;
+    top: 30px;
+    right: 28px;
+    bottom: 34px;
+    color: #234CAD;
+}
+
+#secured-section-left .paragraph-secured-section h4 {
+    width: 111px;
+    height: 49px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 49px;
+    color: #234CAD;
+    position: absolute;
+    left: 917px;
+    top: 933px;
+    right: 412px;
+    bottom: 4113px;
+}
+
+#secured-section-left .paragraph-secured-section p {
+    width: 428px;
+    height: 36px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #234CAD;
+    position: absolute;
+    left: 917px;
+    top: 982px;
+    right: 100px;
+    bottom: 4077px;
 }

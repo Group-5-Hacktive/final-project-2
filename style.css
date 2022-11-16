@@ -1,0 +1,866 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: absolute;
+    width: 1440px;
+    height: 5095px;
+    left: 0px;
+    top: 0px;
+    color: #ffffff;
+}
+
+/* navbar */
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    padding-top: 80px;
+    transition: 0.5s; 
+  }
+  
+  .sidenav a {
+    margin:15px 15px 15px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #234CAD;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Nunito';
+    font-weight: 700;
+  }
+  
+  .sidenav a:hover {
+    color: black;
+  }
+ 
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: red;
+  }
+
+  .sidenav img {
+    position: absolute;
+    top: 20px;
+  }
+
+  .navbar .navbar-toggler{
+    position: absolute;
+    color: #F2F6FF;
+    top: 70px;
+    left: 100px;
+    right: 1290px;
+  }
+  
+  .navbar .nav-item #home {
+    width: 49px;
+    height: 29px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #234CAD;
+    position: absolute;
+    left: 517px;
+    top: 61px;
+    right: 874px;
+    bottom: 5005px;
+  }
+
+  .navbar .nav-item #product {
+    width: 65px;
+    height: 29px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #234CAD;
+    position: absolute;
+    left: 616px;
+    top: 61px;
+    right: 759px;
+    bottom: 5005px;
+  }
+  
+  .navbar .nav-item #about {
+    width: 51px;
+    height: 29px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #234CAD;
+    position: absolute;
+    left: 731px;
+    top: 61px;
+    right: 658px;
+    bottom: 5005px;
+  }
+
+  .navbar .nav-item #contact {
+    width: 64px;
+    height: 29px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #234CAD;
+    position: absolute;
+    left: 831px;
+    top: 61px;
+    right: 545px;
+    bottom: 5005px;
+  }
+
+  #main {
+    transition: margin-left .5s;
+  }
+
+  .navbar #main #login {
+    width: 135px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: #234CAD;
+    position: absolute;
+    left: 1045px;
+    top: 50px;
+    right: 260px;
+    bottom: 4995px;
+  }
+
+  .navbar #main #login .btn-text-login {
+    width: 47px;
+    height: 29px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    color: #234CAD;
+    position: absolute;
+    top: 11px;
+    right: 44px;
+    bottom: 10px;
+    left: 44px;
+    text-align: center;
+  }
+  .navbar #main #login:hover {
+    background-color: #F2F6FF;
+  }
+
+  .navbar #main #sign-up {
+    width: 135px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: white;
+    background-color: #F2F6FF;
+    position: absolute;
+    left: 1205px;
+    top: 50px;
+    right: 100px;
+    bottom: 4995px;
+  }
+  .navbar #main #sign-up .btn-text-sign {
+    width: 64px;
+    height: 29px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    color: #234CAD;
+    line-height: 29px;
+    position: absolute;
+    top: 11px;
+    right: 35px;
+    bottom: 10px;
+    left: 36px;
+    text-align: center;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+/* Jumbotron */
+#web-section {
+    height: 575px;
+    width: 1240px;
+    background: #F2F6FF;
+    border-radius: 60px;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    right: 100px;
+    bottom: 4320px;
+    overflow: hidden;
+}
+
+.body-text {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #234CAD;
+    position: absolute;
+    width: 375px;
+    height: 168px;
+    left: 100px;
+    top: 108px;
+    bottom: 299px;
+    right: 765px;
+}
+
+.paragraph {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #234CAD;
+    position: absolute;
+    width: 304px;
+    height: 52px;
+    left: 100px;
+    top: 301px;
+    right: 836px;
+    bottom: 222px;
+}
+
+#card-left .btn {
+    border-color:#234CAD;
+    border-radius: 32.5px;
+    width: 200px;
+    height: 65px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color:#234CAD;  
+    position: absolute;
+    left: 100px;
+    top: 403px;
+    right: 940px;
+    bottom: 107px;
+}
+
+/* Card Center */
+
+#card-center {
+    padding: 0;
+    margin: 0;
+}
+
+#card-center-1 {
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    border: 10px solid white;
+    border-radius: 20px;
+    padding: 0.7em;
+    background: white;
+    position: absolute;
+    left: 575px;
+    top: 36px;
+    right: 590px;
+    bottom: 464px;
+}
+
+#card-center-2 {
+    height: 100px;
+    width: 350px;
+    border-radius: 20px;
+    border-color: white;
+    position: absolute;
+    left: 575px;
+    top: 136px;
+    right: 315px;
+    bottom: 339px;
+}
+#card-center-2 .fa-stack {
+    position: absolute;
+    left: 20px;
+    top: 31px;
+    bottom: 23px;
+}
+
+.paragraph-2 h4 {
+    width: 160px;
+    height: 21px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #234CAD;
+    position: absolute;
+    left: 93px;
+    top: 32px;
+    right: 100px;
+    bottom: 47px;
+}
+
+.paragraph-2 p {
+    width: 90px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: #234CAD;
+    position: absolute;
+    left: 93px;
+    top: 56px;
+    right: 167px;
+    bottom: 23px;
+}
+
+#card-center-3 {
+    height: 160px;
+    width: 276px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    border-color:white ;
+    position: absolute;
+    left: 575px;
+    top: 261px;
+    right: 389px ;
+    bottom: 154px;
+}
+
+#card-center-3 .fa-stack{
+    position: absolute;
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #F2F6FF;
+    border-radius: 100%;
+}
+
+#card-center-3 .fa-stack .fa-calendar-days {
+    margin-top: 5px;
+}
+
+.paragraph-3 {
+    position: absolute;
+    bottom: 87px;
+    left: 100px;
+    top: 28px;
+    margin-left: 10px;
+}
+
+.paragraph-3 h4 {
+    width: 110px;
+    height: 21px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #234CAD;
+}
+
+.paragraph-3 p {
+    width: 118px;
+    height: 21px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: #234CAD;
+    display: inline;
+}
+
+.text-block {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #F2F6FF;
+    color: white;
+    padding:9px;
+    border-radius: 100%;
+    bottom: 20px;
+    margin: 20px -10px 20px 20px;
+    border-style: solid;
+}
+
+.person .text-block p {
+    height: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    color: #234CAD;
+}
+
+.text-block-1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #F2F6FF;
+    color: white;
+    padding:9px;
+    border-radius: 100%;
+    bottom: 20px;
+    margin-left: 50px;
+    border-style: solid;
+}
+
+.person-1 .text-block-1 p {
+    height: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    color: #234CAD;
+}
+
+.text-block-2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #F2F6FF;
+    color: white;
+    padding:9px;
+    border-radius: 100%;
+    bottom: 20px;
+    margin-left: 80px;
+    border-style: solid;
+}
+
+.person-2 .text-block-2 p {
+    height: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    color: #234CAD;
+}
+
+.text-block-3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #F2F6FF;
+    color: white;
+    padding:9px;
+    border-radius: 100%;
+    bottom: 20px;
+    margin-left: 110px;
+    border-style: solid;
+}
+
+.person-3 .text-block-3 p {
+    height: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    color: #234CAD;
+}
+
+#card-center-4 {
+    height: 100px;
+    width: 350px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    border-color:white ;
+    position: absolute;
+    left: 575px;
+    top: 446px;
+    right: 315px;
+    bottom: 29px;
+}
+
+#card-center-4 .fa-stack {
+    margin: 25px 20px;
+}
+
+#card-center-4 .person-initial {
+    margin: 20px;
+}
+
+#card-center-4 .person-initial .text-block-initial {
+    width: 60px;
+    height: 60px;
+    background-color: #F2F6FF;
+    color: white;
+    padding:12.5px;
+    border-radius: 100%;
+  }
+
+#card-center-4 .person-initial .text-block-initial p {
+    height: 24px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #234CAD;
+    margin: 6.5px 6.5px 6.5px 7.5px;
+}
+
+#card-center-4 .person-initial .text-block-initial .notif {
+    position: absolute;
+    width: 4px;
+    top: 24px;
+    left: 70px;
+    
+}
+
+.paragraph-4 h4 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #234CAD;
+    position: absolute;
+    left: 100px;
+    top: 28px;
+    bottom: 51px;
+}
+
+.paragraph-4 p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    width: 184px;
+    color: #234CAD;
+    position: absolute;
+    left: 100px;
+    top: 52px;
+    bottom: 27px;
+}
+
+.date-card-4 {
+    position: absolute;
+    left: 285px;
+    right: 20px;
+    top: 28px;
+    bottom: 59px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #234CAD;
+    opacity: 0.75;
+}
+
+/* Card Right */
+#card-right {
+    position: absolute;
+    left: 975px;
+    top: 76px;
+    right: 135px;
+    bottom: 339px;
+    width: 130px;
+    height: 160px;
+    border-radius: 25px;
+    border-color: white;
+}
+
+#card-right .fa-stack {
+    margin: 29px 30px 20px 32px;
+}
+
+#card-right .paragraph-right {
+    position: absolute;
+    top: 119px;
+    left: 34.29px;
+    right: 33.71px;
+    width: 63px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #234CAD;
+}
+
+#card-right-2 {
+    height: 100px;
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    border-color:white ;
+    position: absolute;
+    left: 876px;
+    top: 261px;
+    right: 14px;
+    bottom: 214px;
+}
+
+#card-right-2 .fa-stack {
+    margin: 25px 20px;
+}
+
+#card-right-2 .person-initial {
+    margin: 20px;
+}
+
+#card-right-2 .person-initial .text-block-initial {
+    width: 60px;
+    height: 60px;
+    background-color: #F2F6FF;
+    color: white;
+    padding:12.5px;
+    border-radius: 100%;
+  }
+
+#card-right-2 .person-initial .text-block-initial p {
+    height: 24px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #234CAD;
+    margin: 6.5px 6.5px 6.5px 5px;
+    width: 26px;
+}
+
+#card-right-2 .person-initial .text-block-initial .notif {
+    position: absolute;
+    width: 4px;
+    top: 24px;
+    left: 70px;
+    
+}
+
+
+.paragraph-right-2 h4 {
+    width: 96px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #234CAD;
+    position: absolute;
+    left: 100px;
+    top: 28px;
+    right: 154px;
+    bottom: 51px;
+}
+
+.paragraph-right-2 p {
+    width: 156px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: #234CAD;
+    position: absolute;
+    left: 100px;
+    top: 52px;
+    right: 94px;
+    bottom: 27px;
+}
+
+.date-card-right-2 {
+    position: absolute;
+    left: 285px;
+    right: 20px;
+    top: 28px;
+    bottom: 59px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #234CAD;
+    opacity: 0.75;
+}
+
+#card-right-3 {
+    height: 100px;
+    width: 350px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    border-color:white ;
+    position: absolute;
+    left: 975px;
+    top: 386px;
+    right: 85px;
+    bottom: 89px;
+}
+
+#card-right-3 .message-card-right-3 .text-block-message {
+    width: 60px;
+    height: 60px;
+    background-color: #F2F6FF;
+    color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    bottom: 20px;
+    right: 270px;
+}
+
+#card-right-3 .message-card-right-3 .text-block-message i {
+    position: absolute;
+    color: #234CAD;
+    left: 22px;
+    top: 30px;
+    bottom: 30px;
+    right: 290px;
+}
+
+.paragraph-right-3 h4 {
+    font-family: 'Nunito', sans-serif;
+    width: 120px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #234CAD;
+    position: absolute;
+    left: 100px;
+    top: 28px;
+    right: 136px;
+    bottom: 51px;
+}
+
+.paragraph-right-3 p {
+    width: 224px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    width: 230px;
+    font-size: 12px;
+    line-height: 21px;
+    color: #234CAD;
+    position: absolute;
+    left: 100px;
+    top: 52px;
+    right: 26px;
+    bottom: 27px;
+}
+
+#card-right-4 {
+    width: 75px;
+    height: 75px;
+    border: 10px solid white;
+    border-radius: 20px;
+    background: white;
+    position: absolute;
+    left: 950px;
+    top: 511px;
+    right: 215px;
+    bottom: 11px;
+}
+
+#card-right-4 span i {
+    position: absolute;
+    left: 12px;
+    top: 28px;
+    right: 12px;
+    bottom: 23.79px;
+    color: #234CAD;
+}
+
+/* Cloud Section */
+
+.cloud-section .fa-stack {
+    width: 100px;
+    height: 100px;
+    background-color: #F2F6FF;
+    position: absolute;
+    border-radius: 100%;
+    left: 100px;
+    top: 925px;
+    right: 1240px;
+    bottom: 4070px;
+}
+
+#cloud-section-left .cloud-section i {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    right: 28px;
+    bottom: 34px;
+    color: #234CAD;
+}
+
+#cloud-section-left .paragraph-cloud-section h4 {
+    width: 178px;
+    height: 49px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 49px;
+    color: #234CAD;
+    position: absolute;
+    left: 230px;
+    top: 933px;
+    right: 1040px;
+    bottom: 4113px;
+}
+
+#cloud-section-left .paragraph-cloud-section p {
+    width: 406px;
+    height: 36px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #234CAD;
+    position: absolute;
+    left: 230px;
+    top: 982px;
+    right: 808px;
+    bottom: 4077px;
+}
+
+/* Secured Section */
+
+.secured-section .fa-stack {
+    width: 100px;
+    height: 100px;
+    background-color: #F2F6FF;
+    position: absolute;
+    border-radius: 100%;
+    left: 787px;
+    top: 925px;
+    right: 553px;
+    bottom: 4070px;
+}
+
+#secured-section-left .secured-section i {
+    position: absolute;
+    left: 34px;
+    top: 30px;
+    right: 28px;
+    bottom: 34px;
+    color: #234CAD;
+}
+
+#secured-section-left .paragraph-secured-section h4 {
+    width: 111px;
+    height: 49px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 49px;
+    color: #234CAD;
+    position: absolute;
+    left: 917px;
+    top: 933px;
+    right: 412px;
+    bottom: 4113px;
+}
+
+#secured-section-left .paragraph-secured-section p {
+    width: 428px;
+    height: 36px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #234CAD;
+    position: absolute;
+    left: 917px;
+    top: 982px;
+    right: 100px;
+    bottom: 4077px;
+}

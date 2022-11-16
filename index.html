@@ -1,12 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fivetech.</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <!-- fontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/dfabc0038b.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <div class="navbar">
+      <div id="mySidenav" class="sidenav">
+        <img src="source/logo.png" alt="logo" />
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="#">Home</a>
+        <a href="#">Product</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <span onclick="openNav()"
+        ><button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span></button
+      ></span>
+
+      <div class="nav-link">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" id="home" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="product" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="about" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contact" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="main">
+        <button class="btn me-2" id="login" type="submit">
+          <p class="btn-text-login">Login</p>
+        </button>
+        <button class="btn btn-primary" id="sign-up" type="submit">
+          <p class="btn-text-sign">Sign Up</p>
+        </button>
+      </div>
+    </div>
+
+    <!-- Web Section -->
+    <div id="web-section">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-4" id="card-left">
+            <h1 class="body-text">Business Communications Reinvented</h1>
+            <p class="paragraph">
+              Start communicating with your business team more efficiently with
+              our app.
+            </p>
+            <button class="btn" type="submit">Get the app</button>
+          </div>
+
+          <div class="col-8" id="card-center">
+            <div class="card" id="card-center-1">
+              <span>
+                <i class="fa-regular fa-file fa-xl" style="color: #234cad"></i>
+              </span>
+            </div>
+
+            <div class="card" id="card-center-2">
+              <span class="fa-stack fa-xl">
+                <i
+                  class="fa-solid fa-circle-notch fa-spin fa-2x"
+                  style="color: #234cad"
+                ></i>
+                <i
+                  class="fa-solid fa-cloud-arrow-up fa-stack-1x fa-sm"
+                  style="color: #234cad; margin-left: -6px"
+                ></i>
+              </span>
+              <div class="paragraph-2">
+                <h4>Uploading Document</h4>
+                <p>7.09/108.98 GB</p>
+              </div>
+            </div>
+
+            <div class="card" id="card-center-3">
+              <span class="fa-stack fa-xl">
+                <i
+                  class="fa-regular fa-circle fa-3x"
+                  style="
+                    position: absolute;
+                    margin: -5.2px 0 0 -5px;
+                    color: #234cad;
+                  "
+                ></i>
+                <!-- <i
+                  class="fa-regular fa-circle fa-stack-2x"
+                  style="color: #234cad"
+                ></i> -->
+                <i
+                  class="fa-solid fa-calendar-days fa-stack-1x fa-lg"
+                  style="color: #234cad"
+                ></i>
+              </span>
+              <div class="paragraph-3">
+                <h4>Team Meeting</h4>
+                <p id="clock"></p>
+                <p id="date">18 Nov 2022</p>
+              </div>
+              <div class="person">
+                <div class="text-block" style="margin-bottom: 0px">
+                  <p>JM</p>
+                </div>
+              </div>
+              <div class="person-1">
+                <div class="text-block-1">
+                  <p>AC</p>
+                </div>
+              </div>
+              <div class="person-2">
+                <div class="text-block-2">
+                  <p>KD</p>
+                </div>
+              </div>
+              <div class="person-3">
+                <div class="text-block-3">
+                  <p>8+</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card" id="card-center-4">
+              <div class="person-initial">
+                <div class="text-block-initial" style="margin-bottom: 0px">
+                  <p>JS</p>
+                  <div class="notif">
+                    <span
+                      class="translate-middle badge rounded-pill"
+                      style="
+                        background: #234cad;
+                        border-style: solid;
+                        border-color: white;
+                      "
+                    >
+                      3
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="paragraph-4">
+                <h4>John Smith</h4>
+                <p>Hello, are you available for a pro…</p>
+              </div>
+              <div class="date">
+                <p class="date-card-4" id="clock-2"></p>
+              </div>
+            </div>
+
+            <!-- card-right -->
+            <div class="card" id="card-right">
+              <span class="fa-stack fa-xl">
+                <i
+                  class="fa-solid fa-circle-notch fa-spin fa-3x"
+                  style="
+                    position: absolute;
+                    margin: -10px 0 0 -6px;
+                    color: #234cad;
+                  "
+                ></i>
+                <i
+                  class="fa-solid fa-cloud-arrow-up fa-stack-1x fa-lg"
+                  style="color: #234cad"
+                ></i>
+              </span>
+              <div class="paragraph-right">
+                <p>1.73/2.09 GB</p>
+              </div>
+            </div>
+
+            <div class="card" id="card-right-2">
+              <div class="person-initial">
+                <div class="text-block-initial" style="margin-bottom: 0px">
+                  <p>AB</p>
+                  <div class="notif">
+                    <span
+                      class="translate-middle badge rounded-pill"
+                      style="
+                        background: #234cad;
+                        border-style: solid;
+                        border-color: white;
+                      "
+                    >
+                      3
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="paragraph-right-2">
+                <h4>Anna Brooks</h4>
+                <p>Hi, how are you doing today?</p>
+              </div>
+              <div class="date">
+                <p class="date-card-right-2" id="clock-3"></p>
+              </div>
+            </div>
+
+            <div class="card" id="card-right-3">
+              <div class="message-card-right-3">
+                <div class="text-block-message">
+                  <i
+                    class="fa-regular fa-bookmark fa-lg"
+                    style="margin-bottom: 0"
+                  ></i>
+                </div>
+              </div>
+              <div class="paragraph-right-3">
+                <h4>Message Saved</h4>
+                <p>You have successfully saved this message</p>
+              </div>
+            </div>
+
+            <div class="card" id="card-right-4">
+              <span>
+                <i class="fa-regular fa-message fa-2xl"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- cloud -->
+    <div id="cloud-section-left">
+      <div class="cloud-section">
+        <span class="fa-stack">
+          <i class="fa-solid fa-cloud fa-2x"></i>
+        </span>
+      </div>
+      <div class="paragraph-cloud-section">
+        <h4>Cloud based</h4>
+        <p>All your messages are always backed up.</p>
+      </div>
+    </div>
+
+    <div id="secured-section-left">
+      <div class="secured-section">
+        <span class="fa-stack">
+          <i class="fa-solid fa-lock fa-2x"></i>
+        </span>
+      </div>
+      <div class="paragraph-secured-section" style="color: black">
+        <h4>Secured</h4>
+        <p>All your messages are stored very securely.</p>
+      </div>
+    </div>
+  </body>
 </html>

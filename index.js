@@ -30,6 +30,9 @@ function closeNav() {
   document.getElementById("clock").innerText = time + getampm;
   document.getElementById("clock-2").innerText = time + getampm;
   document.getElementById("clock-3").innerText = time + getampm;
+  document.getElementById("realtime").innerText = time + getampm;
+  document.getElementById("realtime2").innerText = time + getampm;
+  document.getElementById("realtime3").innerText = time + getampm;
   // jalankan function currentTime setiap 1000ms /1 detik
   let t = setTimeout(function () {
     currentTime();

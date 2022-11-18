@@ -1801,7 +1801,7 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    width: 106px;
+    width: 136px;
     height: 21px;
     color: #234CAD;
     position: absolute;
@@ -1931,7 +1931,7 @@ body {
     color: #234CAD;
 }
 /* section d */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
 .contact{
     width:1240px;
     height: 383px;

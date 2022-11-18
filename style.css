@@ -881,6 +881,7 @@ body {
 /* Section B */
 
 #product-feature-1 {
+    font-family: 'Nunito', sans-serif;
     height: 575px;
     width: 575px;
     background: #F2F6FF;
@@ -899,6 +900,7 @@ body {
 }
 /* CARD 1 */
 #product-feature-1 #center-card-1 {
+    font-family: 'Nunito', sans-serif;
     height: 125px;
     width: 438px;
     border-radius: 25px;
@@ -911,6 +913,7 @@ body {
 }
 
 #product-feature-1 #center-card-1 .initial-1 {
+    font-family: 'Nunito', sans-serif;
     position: absolute;
     width: 75px;
     height: 75px;
@@ -932,6 +935,7 @@ body {
 }
 
 #product-feature-1 #center-card-1 .badge-1 {
+    font-family: 'Nunito', sans-serif;
     width: 16px;
     height: 16px;
     background-color: #234cad;
@@ -947,6 +951,7 @@ body {
 }
 
 #product-feature-1 #center-card-1 .name-1 {
+    font-family: 'Nunito', sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: #234CAD;
@@ -959,6 +964,7 @@ body {
 }
 
 .msg-1 {
+    font-family: 'Nunito', sans-serif;
     width: 228px;
     height: 27px;
     font-size: 15px;
@@ -972,6 +978,7 @@ body {
 }
 
 .time-1 {
+    font-family: 'Nunito', sans-serif;
     font-size: 10px;
     color: #234CAD;
     position: absolute;
@@ -983,6 +990,7 @@ body {
 }
 /* card 2 */
 #product-feature-1 #center-card-2 {
+    font-family: 'Nunito', sans-serif;
     height: 100px;
     width: 350px;
     border-radius: 20px;
@@ -995,6 +1003,7 @@ body {
 }
 
 #product-feature-1 #center-card-2 .initial-2 {
+    font-family: 'Nunito', sans-serif;
     position: absolute;
     width: 60px;
     height: 60px;
@@ -1017,6 +1026,7 @@ body {
 }
 
 .badge-2 {
+    font-family: 'Nunito', sans-serif;
     width: 14px;
     height: 14px;
     background-color: #234cad;
@@ -1032,6 +1042,7 @@ body {
 }
 
 .name-2 {
+    font-family: 'Nunito', sans-serif;
     font-size: 16px;
     color: #234CAD;
     font-weight: 700;
@@ -1045,6 +1056,7 @@ body {
 }
 
 .msg-2 {
+    font-family: 'Nunito', sans-serif;
     font-size: 12px;
     color: #234CAD;
     font-weight: 400;
@@ -1058,6 +1070,7 @@ body {
 }
 
 .time-2 {
+    font-family: 'Nunito', sans-serif;
     font-size: 10px;
     width: 39px;
     height: 13px;
@@ -1072,6 +1085,7 @@ body {
 
 /* card 3 */
 #product-feature-1 #center-card-3 {
+    font-family: 'Nunito', sans-serif;
     width: 262px;
     height: 70px;
     border-radius: 15px;
@@ -1083,6 +1097,7 @@ body {
     bottom: 117px;
 }
 #product-feature-1 #center-card-3 .initial-3 {
+    font-family: 'Nunito', sans-serif;
     position: absolute;
     left: 15px;
     top: 15px;
@@ -1104,6 +1119,7 @@ body {
 }
 
 .badge-3 {
+    font-family: 'Nunito', sans-serif;
     width: 10px;
     height: 10px;
     background-color: #234cad;
@@ -1119,6 +1135,7 @@ body {
 }
 
 .name-3 {
+    font-family: 'Nunito', sans-serif;
     width: 69px;
     height: 16px;
     font-size: 12px;
@@ -1132,6 +1149,7 @@ body {
 }
 
 .msg-3 {
+    font-family: 'Nunito', sans-serif;
     width: 140px;
     height: 16px;
     font-size: 9px;
@@ -1145,6 +1163,7 @@ body {
 }
 
 .time-3 {
+    font-family: 'Nunito', sans-serif;
     width: 27px;
     height: 10px;
     opacity: 75%;
@@ -1161,6 +1180,7 @@ body {
 /* right content */
 
 .title-1 {
+    font-family: 'Nunito', sans-serif;
     color: #234CAD;
 }
 
@@ -1190,6 +1210,7 @@ body {
 }
 
 .button-right-product {
+    font-family: 'Nunito', sans-serif;
     background-color: white;
     color: #234CAD;
     border-radius: 32.5px;
@@ -1205,6 +1226,7 @@ body {
 }
 
 .button-right-product:hover {
+    font-family: 'Nunito', sans-serif;
     background-color: #234CAD;
     color: white;
     padding: 10px;
@@ -1216,6 +1238,7 @@ body {
 
 /* product feature 2 */
 .title-2 {
+    font-family: 'Nunito', sans-serif;
     color: #234CAD;
 }
 
@@ -1247,6 +1270,7 @@ body {
 
 /* jumbotron 2 */
 #product-feature-2 {
+    font-family: 'Nunito', sans-serif;
     height: 575px;
     width: 1240px;
     background: #F2F6FF;
@@ -1292,6 +1316,7 @@ body {
 }
 
 #product-feature-2 #card-product-2 .initial-4 {
+    font-family: 'Nunito', sans-serif;
     position: absolute;
     width: 60px;
     height: 60px;
@@ -1314,6 +1339,7 @@ body {
 }
 
 .badge-4 {
+    font-family: 'Nunito', sans-serif;
     width: 16px;
     height: 16px;
     background-color: #234cad;
@@ -1329,6 +1355,7 @@ body {
 }
 
 .name-4 {
+    font-family: 'Nunito', sans-serif;
     width: 119px;
     height: 21px;
     font-size: 16px;
@@ -1342,6 +1369,7 @@ body {
 }
 
 .msg-4 {
+    font-family: 'Nunito', sans-serif;
     width: 178px;
     height: 21px;
     font-size: 12px;
@@ -1355,6 +1383,7 @@ body {
 }
 
 .time-4 {
+    font-family: 'Nunito', sans-serif;
     width: 45px;
     height: 13px;
     font-size: 10px;
@@ -1390,6 +1419,7 @@ body {
 }
 
 .sales {
+    font-family: 'Nunito', sans-serif;
     width: 106px;
     height: 21px;
     font-size: 16px;
@@ -1403,6 +1433,7 @@ body {
 }
 
 .meeting {
+    font-family: 'Nunito', sans-serif;
     width: 135px;
     height: 21px;
     font-size: 12px;
@@ -1416,6 +1447,7 @@ body {
 }
 
 #stack-1 {
+    font-family: 'Nunito', sans-serif;
     width: 40px; 
     height: 40px; 
     color: #234CAD;
@@ -1429,6 +1461,7 @@ body {
 }
 
 #stack-2 {
+    font-family: 'Nunito', sans-serif;
     width: 40px; 
     height: 40px;
     color: #234CAD;
@@ -1442,6 +1475,7 @@ body {
 }
 
 #stack-3 {
+    font-family: 'Nunito', sans-serif;
     width: 40px; 
     height: 40px; 
     color: #234CAD;
@@ -1455,6 +1489,7 @@ body {
 }
 
 #stack-4 {
+    font-family: 'Nunito', sans-serif;
     width: 40px; 
     height: 40px; 
     color: #234CAD;
@@ -1489,6 +1524,7 @@ body {
 }
 
 .upload {
+    font-family: 'Nunito', sans-serif;
     width: 168px;
     height: 21px;
     font-size: 16px;
@@ -1502,6 +1538,7 @@ body {
 }
 
 .transmit {
+    font-family: 'Nunito', sans-serif;
     width: 90px;
     height: 21px;
     font-size: 12px;
@@ -1528,6 +1565,7 @@ body {
 }
 
 #product-feature-2 #card-product-5 .initial-5 {
+    font-family: 'Nunito', sans-serif;
     position: absolute;
     width: 60px;
     height: 60px;
@@ -1544,6 +1582,7 @@ body {
 }
 
 #product-feature-2 #card-product-5 .initial-5 .badge-5 {
+    font-family: 'Nunito', sans-serif;
     width: 16px;
     height: 16px;
     background-color: #234cad;
@@ -1559,6 +1598,7 @@ body {
 }
 
 #card-product-5 .name-5 {
+    font-family: 'Nunito', sans-serif;
     width: 83px;
     height: 21px;
     font-size: 16px;
@@ -1572,6 +1612,7 @@ body {
 }
 
 .msg-5 {
+    font-family: 'Nunito', sans-serif;
     width: 180px;
     height: 21px;
     font-size: 12px;
@@ -1585,6 +1626,7 @@ body {
 }
 
 .time-5 {
+    font-family: 'Nunito', sans-serif;
     width: 45px;
     height: 13px;
     font-size: 10px;
@@ -1619,6 +1661,7 @@ body {
 }
 
 .transmit-2 {
+    font-family: 'Nunito', sans-serif;
     width: 63px;
     height: 13px;
     font-size: 10px;
@@ -1653,6 +1696,7 @@ body {
 }
 
 .saved {
+    font-family: 'Nunito', sans-serif;
     width: 120px;
     height: 21px;
     font-size: 16px;
@@ -1666,6 +1710,7 @@ body {
 }
 
 .content-msg {
+    font-family: 'Nunito', sans-serif;
     width: 230px;
     height: 21px;
     font-size: 12px;

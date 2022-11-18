@@ -204,6 +204,19 @@ body {
     overflow: hidden;
 }
 
+#web-section-about {
+    height: 575px;
+    width: 1240px;
+    background: #e00000;
+    border-radius: 60px;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    right: 100px;
+    bottom: 4320px;
+    overflow: hidden;
+}
+
 .body-text {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -1683,4 +1696,237 @@ body {
     margin-top: 7px;
     font-size: 35px;
     color:#234CAD;
+}
+
+/* section c */
+#about-left {
+    height: 575px;
+    width: 575px;
+    background: #F2F6FF;
+    border-radius: 60px;
+    border: none;
+    position: absolute;
+    top: 2858px;
+    left: 665px;
+    right: 200px;
+    bottom: 1662px;
+}
+
+.left-1 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    width: 365x;
+    height: 168px;
+    font-size: 48px;
+    font-weight: 700;
+    width: 365px;
+    line-height: 56px;
+    position: absolute;
+    left: 200px;
+    top: 2966px;
+    right: 875px;
+    bottom: 1961px;
+}
+
+.left-2 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    width: 304px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    position: absolute;
+    left: 200px;
+    top: 3159px;
+    right: 936px;
+    bottom: 1884px;
+}
+
+.button-left-about {
+    background-color: white;
+    color: #234CAD;
+    border-radius: 32.5px;
+    width: 200px;
+    height: 65px;
+    border-color: #234CAD;
+    font-weight: 700;
+    position: absolute;
+    left: 200px;
+    top: 3261px;
+    right: 1040px;
+    bottom: 1769px;
+}
+
+.button-left-about:hover {
+    background-color: #234CAD;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    width: 200px;
+    border-color: #234CAD;
+    transition: 0.5s;
+}
+
+#about-right {
+    height: 575px;
+    width: 575px;
+    background: #F2F6FF;
+    border-radius: 60px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    top: 2858px;
+    left: 665px;
+    right: 200px;
+    bottom: 1662px;
+}
+
+.card-container {
+    margin-left: 6vw; 
+    margin-top: 6vw; 
+    width: 100%
+}
+
+#about-card {
+    height: 160px;
+    width: 276px;
+    border-radius: 25px;
+    border: none;
+    position: relative;
+    background-color: #ffffff;
+}
+.agenda {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    width: 106px;
+    height: 21px;
+    color: #234CAD;
+    position: absolute;
+    left: 100px;
+    top: 28px;
+    right: 70px;
+    bottom: 111px;
+}
+
+.pracing-title {
+    color: #234CAD;
+}
+
+.pracing-subtitle-1 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    width: 723px;
+    height: 56px;
+    text-align: center;
+    position: absolute;
+    left: 422px;
+    top: 3583px;
+    right: 421px;
+    bottom: 1456px;
+}
+
+.pracing-subtitle-2  {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    width: 425px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    left: 538px;
+    top: 3664px;
+    right: 537px;
+    bottom: 1379px;
+}
+
+.card-pricing-1 {
+    width: 380px;
+    height: 380px;
+    border-radius: 60px;
+    position: relative;
+    top: 3160px;
+    left: 100;
+    right: 960;
+    bottom: 924px;
+    background-color: #F2F6FF;
+    color: #234CAD;
+}
+
+.card-pricing-2 {
+    width: 380px;
+    height: 380px;
+    border-radius: 60px;
+    position: relative;
+    top: 3160px;
+    left: 530;
+    right: 530;
+    bottom: 924px;
+    color: #234CAD;
+    border: 3px solid #234CAD;
+    border-radius: 60px;
+}
+
+.card-pricing-3 {
+    width: 380px;
+    height: 380px;
+    border-radius: 60px;
+    position: relative;
+    top: 3160px;
+    left: 960;
+    right: 100;
+    bottom: 924px;
+    background-color: #F2F6FF;
+    color: #234CAD;
+}
+
+#pricing-category {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+}
+
+#pricing-price {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+#pricing-time {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#pricing-button {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 37.5px;
+    width: 274px;
+    height: 75px;
+    border: none;
+    color: #234CAD;
+}
+
+#pricing-button-1 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 37.5px;
+    width: 274px;
+    height: 75px;
+    border: 3px solid #234CAD;
+    border-radius: 37.5px;
+    color: #234CAD;
 }

@@ -552,6 +552,8 @@ body {
 
 .date-card-4 {
     position: absolute;
+    width: 50px;
+    height: 13px;
     left: 285px;
     right: 20px;
     top: 28px;
@@ -674,6 +676,7 @@ body {
 
 .date-card-right-2 {
     position: absolute;
+    width: 45px;
     left: 285px;
     right: 20px;
     top: 28px;
@@ -1076,6 +1079,8 @@ body {
     height: 13px;
     color: #234CAD;
     position: absolute;
+    width: 45px;
+    height: 13px;
     left: 291px;
     top: 28px;
     right: 20px;
@@ -1164,7 +1169,7 @@ body {
 
 .time-3 {
     font-family: 'Nunito', sans-serif;
-    width: 27px;
+    width: 33px;
     height: 10px;
     opacity: 75%;
     font-size: 7px;

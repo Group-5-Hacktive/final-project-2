@@ -16,7 +16,7 @@ function closeNav() {
   let mm = date.getMinutes();
 
   // jika jam kurang dari 10, maka tambahkan 0 di depan jam ex: 05
-  hh = hh < 10 ? "0${hh}" : hh;
+  hh = hh < 10 ? "0" + hh : hh;
   // jika menit kurang dari 10, maka tambahkan 0 di depan menit ex: 05
   mm = mm < 10 ? "0" + mm : mm;
 

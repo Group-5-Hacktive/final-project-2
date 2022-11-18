@@ -1930,3 +1930,49 @@ body {
     border-radius: 37.5px;
     color: #234CAD;
 }
+/* section d */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+.contact{
+    width:1240px;
+    height: 383px;
+    border-radius:60px;
+    background-color:#f2f6ff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top:3350px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Nunito', sans-serif;
+}
+.paragraf1{
+    color:#234cad;
+    font-size:48px;
+    font-weight: 700;
+}
+.paragraf2{
+    color:#234cad;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.contact input{
+    width:500px;
+    height:60px;
+    border-radius: 17.5px;
+    padding-left: 20px;
+}
+.container {
+    margin-top: 80px;
+}
+.col{
+    color: #234CAD;
+}
+.contact button {
+    border: none;
+    margin-left: 410px;
+    position: absolute;
+    margin-top:150px;
+    background-color: white;
+}
